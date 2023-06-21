@@ -1,10 +1,16 @@
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  color: burlywood;
+    font-size: 62px;
+    font-family: fantasy;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,15 +30,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
